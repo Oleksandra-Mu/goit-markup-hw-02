@@ -125,15 +125,15 @@ h1, h2 {
     background-color: var(--pressed-state-color);
 }
 
-.nav-item {
+.nav-link {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 500;
     color:var(--gray-color);
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--pressed-state-color);
 }
 
