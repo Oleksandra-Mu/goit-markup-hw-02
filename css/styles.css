@@ -56,12 +56,12 @@ ul {
     line-height: 1.5;
 }
 
-.address-link:hover, .caddress-link:focus {
+.address-link:hover, .address-link:focus {
     color: var(--pressed-state-color);
 }
 
 .accent {
-    color: var(--primary-brand-color);
+    color: var(--gray-color);
 }
 
 .logo {
@@ -69,8 +69,9 @@ ul {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.17;
-    font-weight: 500;
-    letter-spacing: 0.04em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand-color);
 }
 
 h1, h2 {
@@ -78,11 +79,30 @@ h1, h2 {
     font-weight: 700;
 }
 
-h3 {
-    font-weight: 500;
+.title-h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--gray-color);
+
 }
 
-h1 {
+.title-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--gray-color);
+}
+
+.feature-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
 }
@@ -94,6 +114,9 @@ h1 {
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    
 }
 
 .order:hover, 
@@ -117,8 +140,27 @@ h1 {
     text-align: center;
 }
 
-.team-members-jobs {
+.section-team {
+    background-color: var(--light-color);
+}
+.team-description {
     text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.product-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-color);
 }
 
 .hero-section {
