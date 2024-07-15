@@ -105,9 +105,10 @@ h1, h2 {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
-.order {
+.hero-button {
     color: var(--white-color);
     background-color: var(--primary-brand-color);
     text-align: center;
@@ -119,8 +120,8 @@ h1, h2 {
     
 }
 
-.order:hover, 
-.order:focus {
+.hero-button:hover, 
+.hero-button:focus {
     background-color: var(--pressed-state-color);
 }
 
@@ -128,7 +129,7 @@ h1, h2 {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 500;
-    color:var(--text-color);
+    color:var(--gray-color);
 }
 
 .nav-link:hover,
@@ -143,6 +144,11 @@ h1, h2 {
 .section-team {
     background-color: var(--light-color);
 }
+
+.team-list {
+    background-color: var(--white-color);
+}
+
 .team-description {
     text-align: center;
     font-size: 16px;
@@ -166,6 +172,7 @@ h1, h2 {
 .hero-section {
     color: var(--white-color);
     background-color: var(--gray-color);
+    letter-spacing: 0.02em;
 }
 .footer {
     color: var(--white-color);
@@ -173,5 +180,5 @@ h1, h2 {
 }
 
 .footer > .logo {
-    color: var(--white-color);
+    color: var(--primary-brand-color);
 }
