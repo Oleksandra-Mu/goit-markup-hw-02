@@ -79,7 +79,7 @@ h1, h2 {
     font-weight: 700;
 }
 
-.title-h2 {
+.title-section {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -88,7 +88,7 @@ h1, h2 {
 
 }
 
-.title-h3 {
+.title-list {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -125,15 +125,15 @@ h1, h2 {
     background-color: var(--pressed-state-color);
 }
 
-.nav-link {
+.nav-item {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 500;
     color:var(--gray-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-item:hover,
+.nav-item:focus {
     color: var(--pressed-state-color);
 }
 
@@ -181,4 +181,12 @@ h1, h2 {
 
 .footer > .logo {
     color: var(--primary-brand-color);
+}
+
+.footer > .logo > .accent {
+    color: var(--light-color);
+}
+
+.list-style {
+    background-color: var(--white-color);
 }
